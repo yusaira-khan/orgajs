@@ -30,8 +30,7 @@
     "format": "prettier --write .",
     "changeset": "changeset",
     "ci:version": "changeset version",
-    "ci:publish": "pnpm build && changeset publish",
-    "postinstall": "husky install"
+    "ci:publish": "pnpm build && changeset publish"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
